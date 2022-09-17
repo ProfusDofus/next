@@ -7,6 +7,19 @@ body {
 	font-family: Roboto, "sans-serif";
 }
 
-a {
+* {
 	color: white;
+}
+
+table,
+th,
+td {
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+td,
+th {
+	min-width: 2rem;
+	padding: 0.5rem;
 }

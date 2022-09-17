@@ -1,7 +1,10 @@
+import { useTranslations } from "next-intl";
+
 const Almanax = ({ }: AlmanaxProps) => {
+	const t = useTranslations();
 	return (
 		<div>
-			<h1>Almanax</h1>
+			<h1>{t("almanax.title")}</h1>
 		</div>
 	);
 };

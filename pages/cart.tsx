@@ -1,7 +1,10 @@
-const cart = ({ }: CartProps) => {
+import { useTranslations } from "next-intl";
+
+const Cart = ({ }: CartProps) => {
+	const t = useTranslations();
 	return (
 		<div>
-			<h1>Cart</h1>
+			<h1>{t("cart.title")}</h1>
 		</div>
 	);
 };
@@ -10,4 +13,4 @@ interface CartProps {
 
 }
 
-export default cart;
+export default Cart;

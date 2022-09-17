@@ -1,7 +1,10 @@
-const stuff = ({ }: StuffProps) => {
+import { useTranslations } from "next-intl";
+
+const Stuff = ({ }: StuffProps) => {
+	const t = useTranslations();
 	return (
 		<div>
-			<h1>Stuff</h1>
+			<h1>{t("stuff.title")}</h1>
 		</div>
 	);
 };
@@ -10,4 +13,4 @@ interface StuffProps {
 
 }
 
-export default stuff;
+export default Stuff;

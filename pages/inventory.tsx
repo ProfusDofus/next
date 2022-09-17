@@ -1,7 +1,10 @@
-const inventory = ({ }: InventoryProps) => {
+import { useTranslations } from "next-intl";
+
+const Inventory = ({ }: InventoryProps) => {
+	const t = useTranslations();
 	return (
 		<div>
-			<h1>Inventory</h1>
+			<h1>{t("inventory.title")}</h1>
 		</div>
 	);
 };
@@ -10,4 +13,4 @@ interface InventoryProps {
 
 }
 
-export default inventory;
+export default Inventory;

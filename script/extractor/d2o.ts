@@ -19,7 +19,7 @@ export class D2OFile extends D2File<D2O> {
 		const a = dataView.getUint32(3, false);
 		const b = dataView.getUint32(7, false);
 
-		return objects;
+		return new Map();
 	}
 
 	public pack(data: D2O): Buffer {

@@ -1,7 +1,10 @@
+import { useTranslations } from "next-intl";
+
 const Login = ({ }: LoginProps) => {
+	const t = useTranslations();
 	return (
 		<div>
-			<h1>Login</h1>
+			<h1>{t("login.title")}</h1>
 		</div>
 	);
 };

@@ -1,7 +1,10 @@
-const idols = ({ }: IdolsProps) => {
+import { useTranslations } from "next-intl";
+
+const Idols = ({ }: IdolsProps) => {
+	const t = useTranslations();
 	return (
 		<div>
-			<h1>Idols</h1>
+			<h1>{t("idols.title")}</h1>
 		</div>
 	);
 };
@@ -10,4 +13,4 @@ interface IdolsProps {
 
 }
 
-export default idols;
+export default Idols;

@@ -1,7 +1,10 @@
-const map = ({ }: MapProps) => {
+import { useTranslations } from "next-intl";
+
+const Map = ({ }: MapProps) => {
+	const t = useTranslations();
 	return (
 		<div>
-			<h1>Map</h1>
+			<h1>{t("map.title")}</h1>
 		</div>
 	);
 };
@@ -10,4 +13,4 @@ interface MapProps {
 
 }
 
-export default map;
+export default Map;

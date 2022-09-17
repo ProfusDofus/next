@@ -1,4 +1,4 @@
-const error404 = ({ }: Error404Props) => {
+const Error404 = ({ }: Error404Props) => {
 	return (
 		<div>
 			<h1>404</h1>
@@ -10,4 +10,4 @@ interface Error404Props {
 
 }
 
-export default error404;
+export default Error404;

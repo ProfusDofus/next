@@ -1,7 +1,10 @@
-const news = ({ }: NewsProps) => {
+import { useTranslations } from "next-intl";
+
+const News = ({ }: NewsProps) => {
+	const t = useTranslations();
 	return (
 		<div>
-			<h1>News</h1>
+			<h1>{t("news.title")}</h1>
 		</div>
 	);
 };
@@ -10,4 +13,4 @@ interface NewsProps {
 
 }
 
-export default news;
+export default News;

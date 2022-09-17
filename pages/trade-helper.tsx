@@ -1,7 +1,10 @@
-const tradeHelper = ({ }: TradeHelperProps) => {
+import { useTranslations } from "next-intl";
+
+const TradeHelper = ({ }: TradeHelperProps) => {
+	const t = useTranslations();
 	return (
 		<div>
-			<h1>TradeHelper</h1>
+			<h1>{t("trade-helper.title")}</h1>
 		</div>
 	);
 };
@@ -10,4 +13,4 @@ interface TradeHelperProps {
 
 }
 
-export default tradeHelper;
+export default TradeHelper;
