@@ -1,0 +1,63 @@
+{
+	"profus": "Profus",
+	"lang": {
+		"en": "English",
+		"fr": "French"
+	},
+	"theme": {
+		"light": "Light",
+		"dark": "Dark"
+	},
+	"home": {
+		"title": "Home",
+		"description": ""
+	},
+	"news": {
+		"title": "News",
+		"description": ""
+	},
+	"map": {
+		"title": "Map",
+		"description": ""
+	},
+	"almanax": {
+		"title": "Almanax",
+		"description": ""
+	},
+	"idols": {
+		"title": "Idols",
+		"description": ""
+	},
+	"stuff": {
+		"title": "Stuff",
+		"description": ""
+	},
+	"jobs": {
+		"title": "Jobs",
+		"description": ""
+	},
+	"breaking": {
+		"title": "Breaking",
+		"description": ""
+	},
+	"fm": {
+		"title": "FM",
+		"description": ""
+	},
+	"cart": {
+		"title": "Cart",
+		"description": ""
+	},
+	"trade-helper": {
+		"title": "Trade-Helper",
+		"description": ""
+	},
+	"inventory": {
+		"title": "Inventory",
+		"description": ""
+	},
+	"login": {
+		"title": "Login",
+		"description": ""
+	}
+}

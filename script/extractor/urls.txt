@@ -1,0 +1,3 @@
+https://launcher.cdn.ankama.com/cytrus.json
+
+https://launcher.cdn.ankama.com/dofus/releases/main/windows/5.0_2.63.9.15.json

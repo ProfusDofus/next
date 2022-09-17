@@ -1,0 +1,63 @@
+{
+	"profus": "Profus",
+	"lang": {
+		"en": "Anglais",
+		"fr": "Français"
+	},
+	"theme": {
+		"light": "Clair",
+		"dark": "Sombre"
+	},
+	"home": {
+		"title": "Accueil",
+		"description": ""
+	},
+	"news": {
+		"title": "News",
+		"description": ""
+	},
+	"map": {
+		"title": "Carte",
+		"description": ""
+	},
+	"almanax": {
+		"title": "Almanax",
+		"description": ""
+	},
+	"idols": {
+		"title": "Idoles",
+		"description": ""
+	},
+	"stuff": {
+		"title": "Stuff",
+		"description": ""
+	},
+	"jobs": {
+		"title": "Métiers",
+		"description": ""
+	},
+	"breaking": {
+		"title": "Brisage",
+		"description": ""
+	},
+	"fm": {
+		"title": "FM",
+		"description": ""
+	},
+	"cart": {
+		"title": "Panier",
+		"description": ""
+	},
+	"trade-helper": {
+		"title": "Échanges",
+		"description": ""
+	},
+	"inventory": {
+		"title": "inventaire",
+		"description": ""
+	},
+	"login": {
+		"title": "Connexion",
+		"description": ""
+	}
+}
