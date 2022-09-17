@@ -42,7 +42,18 @@
 	},
 	"fm": {
 		"title": "FM",
-		"description": ""
+		"description": "",
+		"table": {
+			"characteristics": "Caractéristiques",
+			"weight": "Poids",
+			"rune": "Rune",
+			"runeWeight": "Poids de la rune",
+			"paLevel": "Level PA",
+			"pa": "PA",
+			"raLevel": "Level RA",
+			"ra": "RA",
+			"max": "Max"
+		}
 	},
 	"cart": {
 		"title": "Panier",
@@ -58,6 +69,14 @@
 	},
 	"login": {
 		"title": "Connexion",
+		"description": ""
+	},
+	"_404": {
+		"title": "404",
+		"description": ""
+	},
+	"_error": {
+		"title": "Erreur",
 		"description": ""
 	}
 }

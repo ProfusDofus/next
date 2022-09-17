@@ -34,6 +34,7 @@ const App = ({ Component, pageProps }: AppProps) => {
 			},
 		},
 	} as const;
+	const title = messages[(route.slice(1) || "home") as "home"]?.["title"] ?? "";
 	return (
 		<NextIntlProvider
 			locale={locale}
@@ -41,7 +42,7 @@ const App = ({ Component, pageProps }: AppProps) => {
 			onError={onError}
 			formats={formats}>
 			<Head>
-				<title>Profus - {messages[(route.slice(1) || "home") as "home"]["title"]}</title>
+				<title>Profus - {title}</title>
 				<meta name="description" content="Profus" />
 				<link rel="icon" href="/img/favicon.png" />
 			</Head >

@@ -2,12 +2,18 @@ nav.nav {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	background-color: #ffffff30;
 
 	> a {
 		padding: 0.5rem;
 		border-bottom: 2px solid transparent;
+
 		&.active {
 			border-bottom: 2px solid #ffffff30 !important;
+		}
+
+		&+& {
+			border-left: 1px solid #be131330;
 		}
 
 		img {

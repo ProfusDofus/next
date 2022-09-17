@@ -42,7 +42,18 @@
 	},
 	"fm": {
 		"title": "FM",
-		"description": ""
+		"description": "",
+		"table": {
+			"characteristics": "Characteristics",
+			"weight": "Weight",
+			"rune": "Rune",
+			"runeWeight": "Rune Weight",
+			"paLevel": "PA Level",
+			"pa": "PA",
+			"raLevel": "RA Level",
+			"ra": "RA",
+			"max": "Max"
+		}
 	},
 	"cart": {
 		"title": "Cart",
@@ -58,6 +69,14 @@
 	},
 	"login": {
 		"title": "Login",
+		"description": ""
+	},
+	"_404": {
+		"title": "404",
+		"description": ""
+	},
+	"_error": {
+		"title": "Error",
 		"description": ""
 	}
 }
