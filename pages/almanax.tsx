@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-const Almanax = ({ }: AlmanaxProps) => {
+const Almanax: React.FC<AlmanaxProps> = ({ }) => {
 	const t = useTranslations();
 	return (
 		<div>

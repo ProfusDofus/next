@@ -2,7 +2,7 @@ import { createColumnHelper, flexRender, getCoreRowModel } from "@tanstack/react
 import { useReactTable } from "@tanstack/react-table";
 import { useTranslations } from "next-intl";
 
-const FM = ({ }: FMProps) => {
+const FM: React.FC<FMProps> = ({ }) => {
 	const t = useTranslations();
 
 	const columnHelper = createColumnHelper<Rune>();
@@ -29,13 +29,13 @@ const FM = ({ }: FMProps) => {
 			],
 		}),
 		columnHelper.group({
-			header: t("fm.table.runeWeight"),
+			header: t("fm.table.rune_weight"),
 			columns: [
 				columnHelper.accessor(rune => `${rune.weight} (${rune.runeWeight >= 0 ? "+" : "-"}${rune.runeWeight})`, { id: "runeWeight" }),
 			],
 		}),
 		columnHelper.group({
-			header: t("fm.table.paLevel"),
+			header: t("fm.table.pa_level"),
 			columns: [
 				columnHelper.accessor(rune => rune.PALevel, { id: "paLevel" }),
 			],
@@ -47,7 +47,7 @@ const FM = ({ }: FMProps) => {
 			],
 		}),
 		columnHelper.group({
-			header: t("fm.table.raLevel"),
+			header: t("fm.table.ra_level"),
 			columns: [
 				columnHelper.accessor(rune => rune.RALevel, { id: "raLevel" }),
 			],

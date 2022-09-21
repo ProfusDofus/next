@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-const Inventory = ({ }: InventoryProps) => {
+const Inventory: React.FC<InventoryProps> = ({ }) => {
 	const t = useTranslations();
 	return (
 		<div>

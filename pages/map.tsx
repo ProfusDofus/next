@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-const Map = ({ }: MapProps) => {
+const Map: React.FC<MapProps> = ({ }) => {
 	const t = useTranslations();
 	return (
 		<div>

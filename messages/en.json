@@ -47,10 +47,10 @@
 			"characteristics": "Characteristics",
 			"weight": "Weight",
 			"rune": "Rune",
-			"runeWeight": "Rune Weight",
-			"paLevel": "PA Level",
+			"rune_weight": "Rune Weight",
+			"pa_level": "PA Level",
 			"pa": "PA",
-			"raLevel": "RA Level",
+			"ra_level": "RA Level",
 			"ra": "RA",
 			"max": "Max"
 		}
@@ -60,7 +60,7 @@
 		"description": ""
 	},
 	"trade-helper": {
-		"title": "Trade-Helper",
+		"title": "Trade Helper",
 		"description": ""
 	},
 	"inventory": {
@@ -69,7 +69,10 @@
 	},
 	"login": {
 		"title": "Login",
-		"description": ""
+		"description": "",
+		"login_with_discord": "Login with Discord",
+		"login": "Login",
+		"logout": "Logout"
 	},
 	"_404": {
 		"title": "404",

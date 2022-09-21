@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-const _404 = ({ }: _404Props) => {
+const _404: React.FC<_404Props> = ({ }) => {
 	const t = useTranslations();
 	return (
 		<div>

@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-const Cart = ({ }: CartProps) => {
+const Cart: React.FC<CartProps> = ({ }) => {
 	const t = useTranslations();
 	return (
 		<div>

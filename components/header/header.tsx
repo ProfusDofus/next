@@ -7,7 +7,7 @@ import LanguageSelector from "../language-selector/language-selector";
 import ThemeSelector from "../theme-selector/theme-selector";
 import styles from "./header.module.scss";
 
-const Header = ({ }: HeaderProps) => {
+const Header: React.FC<HeaderProps> = ({ }) => {
 	const t = useTranslations();
 	const { route } = useRouter();
 
@@ -32,7 +32,7 @@ const Header = ({ }: HeaderProps) => {
 			{
 				links.map(({ href, label, icon }, i) => (
 					<Link key={i} href={href}>
-						<a className={classNames({ "active": route === href })}>
+						<a className={classNames({ [styles.active]: route === href })}>
 							<img src={icon} alt={label} title={label} />
 							{ /*
 								<span>{label}</span>

@@ -1,39 +1,85 @@
 # Profus
 
-https://profus.vercel.app/
+Repo for the profus website.
 
+Profus aims to provide useful and advanced tools for the game [Dofus 2](https://www.dofus.com/).
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[Report an issue.](https://github.com/ProfusDofus/next/issues)
 
-## Getting Started
+[Join the Discord.](https://discord.gg/CDkz6Fj)
 
-First, run the development server:
+[TODO](https://github.com/ProfusDofus/next/projects)
+
+## Requirements
+
+-   [git](https://git-scm.com/) (for cloning the repo)
+-   [Node.js](https://nodejs.org/)
+-   [npm](https://www.npmjs.com/)
+-   an internet connection (for cloning the repo and downloading dependencies)
+
+## Installation
+
+1. Clone the repo
+
+```bash
+git clone https://github.com/ProfusDofus/next.git
+```
+
+2. Install the NPM dependencies
+
+```bash
+npm install
+```
+
+## Development
+
+1. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Building
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. Build the project
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+npm run build
+```
 
-## Learn More
+## Links
 
-To learn more about Next.js, take a look at the following resources:
+-   [Deployment](https://profus.vercel.app/) - live version (any new commit will build and deploy the website)
+-   [Profus](https://profus.net/) - official Profus website
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Documentation:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [React Documentation](https://reactjs.org/docs/getting-started.html) - learn about React
+-   [TypeScript Documentation](https://www.typescriptlang.org/docs/) - learn about TypeScript
+-   [Sass Documentation](https://sass-lang.com/documentation) - learn about Sass
+-   [Next-Intl Documentation](https://next-intl-docs.vercel.app/docs/) - learn about Next-Intl
+-   [NextAuth.js Documentation](https://next-auth.js.org/getting-started/introduction) - learn about NextAuth.js
+-   [TanStack Table Documentation](https://tanstack.com/table/v8/docs/guide/introduction) - learn about TanStack Table
+-   [classnames Documentation](https://github.com/JedWatson/classnames) - learn about classnames
 
-## Deploy on Vercel
+Other documentation (extracting data from game files):
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-   [ts-morph Documentation](https://ts-morph.com/) - learn about ts-morph
+-   [ts-node Documentation](https://typestrong.org/ts-node/docs/) - learn about ts-node
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Tools:
+
+-   [PyDofus](https://github.com/balciseri/PyDofus) - a collection of Python scripts to extract data from the Dofus game files
+-   [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler) - a free tool to decompile SWF files
+
+For the admins:
+
+-   [Vercel Dashboard](https://vercel.com/profus) - the Vercel dashboard, where the website is hosted/deployed
+-   [Supabase Dashboard](https://app.supabase.com/project/xafatdkfxlmmpiiqvodt) - the Supabase dashboard, where the database is hosted
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE.md) file for details

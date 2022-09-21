@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-const TradeHelper = ({ }: TradeHelperProps) => {
+const TradeHelper: React.FC<TradeHelperProps> = ({ }) => {
 	const t = useTranslations();
 	return (
 		<div>

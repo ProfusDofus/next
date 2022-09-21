@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-const Jobs = ({ }: JobsProps) => {
+const Jobs: React.FC<JobsProps> = ({ }) => {
 	const t = useTranslations();
 	return (
 		<div>

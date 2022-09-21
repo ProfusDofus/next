@@ -1,9 +1,9 @@
 import { useTranslations } from "next-intl";
-import { ChangeEvent, useState } from "react";
+import React, { ChangeEvent, useState } from "react";
 
 import styles from "./theme-selector.module.scss";
 
-const ThemeSelector = ({ theme = "dark" }: ThemeSelectorProps) => {
+const ThemeSelector: React.FC<ThemeSelectorProps> = ({ theme = "dark" }) => {
 	const t = useTranslations();
 	const [_theme, setTheme] = useState(theme);
 

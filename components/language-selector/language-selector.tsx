@@ -4,7 +4,7 @@ import { ChangeEvent } from "react";
 
 import styles from "./language-selector.module.scss";
 
-const LanguageSelector = ({ }: LanguageSelectorProps) => {
+const LanguageSelector: React.FC<LanguageSelectorProps> = ({ }) => {
 	const t = useTranslations();
 	const { locale, locales, push, route } = useRouter();
 

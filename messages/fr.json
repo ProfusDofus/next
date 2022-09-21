@@ -47,10 +47,10 @@
 			"characteristics": "Caractéristiques",
 			"weight": "Poids",
 			"rune": "Rune",
-			"runeWeight": "Poids de la rune",
-			"paLevel": "Level PA",
+			"rune_weight": "Poids de la rune",
+			"pa_level": "Level PA",
 			"pa": "PA",
-			"raLevel": "Level RA",
+			"ra_level": "Level RA",
 			"ra": "RA",
 			"max": "Max"
 		}
@@ -69,7 +69,10 @@
 	},
 	"login": {
 		"title": "Connexion",
-		"description": ""
+		"description": "",
+		"login_with_discord": "Se connecter avec Discord",
+		"login": "Connexion",
+		"logout": "Déconnexion"
 	},
 	"_404": {
 		"title": "404",

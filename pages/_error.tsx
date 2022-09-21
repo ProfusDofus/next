@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-const _Error = ({ }: _ErrorProps) => {
+const _Error: React.FC<_ErrorProps> = ({ }) => {
 	const t = useTranslations();
 	return (
 		<div>

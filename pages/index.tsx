@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-const Home = ({ }: HomeProps) => {
+const Home: React.FC<HomeProps> = ({ }) => {
 	const t = useTranslations();
 	return (
 		<div>

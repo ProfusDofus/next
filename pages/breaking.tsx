@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-const Breaking = ({ }: BreakingProps) => {
+const Breaking: React.FC<BreakingProps> = ({ }) => {
 	const t = useTranslations();
 	return (
 		<div>
